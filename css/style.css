@@ -1,0 +1,102 @@
+/* Google Font import link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Common Styles  */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+button{
+    padding: 5px 10px;
+    color: grey;
+    background-color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 3px solid gainsboro;
+}
+
+button:focus{
+    color:black;
+    border: 4px solid black;
+    
+}
+
+.container {
+    width: 85%;
+    margin:40px auto;
+}
+
+/* Main Section css  */
+.i-mac-left{
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+.i-mac-left img{
+    width: 75%;
+    margin: auto;
+}
+.i-mac-right{
+    width: 60%;
+    height: auto;
+    background-color:white;
+    float: left;
+}
+h1{
+    font-size: 40px;
+    margin: 0;
+    font-weight: 600;
+}
+p{
+    font-size: 16px;
+}
+/* Category part  */
+.category{
+    margin-bottom: 10px;
+}
+.category-title{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Calculation Part  */
+table{
+    width: 60%;
+    margin-top: 30px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-weight: 600;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+/* Promo code part */
+.promo{
+      margin-top: 30px;
+}
+.promo input[type=text]{
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.promo button{
+background-color:red;
+color: #fff;
+border: 3px solid red;
+}
+h5{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+/*Total Section*/
+h2{
+    text-align: center;
+}
